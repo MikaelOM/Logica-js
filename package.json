@@ -1,0 +1,33 @@
+{
+  "name": "logica",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Exercicios de JavaScript</h1>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikaelOM/Logica-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MikaelOM/Logica-js/issues"
+  },
+  "homepage": "https://github.com/MikaelOM/Logica-js#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.6.0",
+    "jest": "^30.3.0",
+    "prettier": "^3.8.3",
+    "ts-jest": "^29.4.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
